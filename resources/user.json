@@ -1,0 +1,33 @@
+{
+  "email": "jon.hmo@outlook.com",
+  "name": "ana",
+  "lastName": "carvalho",
+  "locale": "",
+  "password": "1q2w3R4",
+  "phones":
+  [
+    {
+      "ddi":"",
+      "ddd":"",
+      "number":"999999999",
+      "type":"Principal"
+    }
+  ]
+}
+
+{
+  "email": "testecronapp@mailinator.com",
+  "name": "Chico",
+  "lastName": "Bike",
+  "locale": "pt-br",
+  "password":"provolone",
+  "phones":
+  [
+    {
+      "ddi":"55",
+      "ddd":"11",
+      "number":"999999999",
+      "type":"Principal"
+      }
+      ]
+    }

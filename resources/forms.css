@@ -1,0 +1,376 @@
+.body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.titulo {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  padding-left: .5rem;
+}
+
+.sub-titulo {
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 4rem;
+  padding-left: .5rem;
+}
+
+.titulo-contato {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.sub-titulo-contato {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 4rem;
+}
+
+.background-F8F8FA {
+  background-color: #F8F8FA;
+}
+
+.img-side {
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.inputs-contato {
+  height: 2.8rem;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #cacaca;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  font-family: 'Rubik', sans-serif;
+  background-color: transparent;
+}
+
+.inputs-contato::placeholder {
+  color: #cacaca;
+}
+
+select.inputs-contato {
+  color: #cacaca;
+}
+
+textarea.inputs-contato {
+  padding-top: .8rem;
+  height: 7rem;
+}
+
+.form-contato {
+  padding: .5rem;
+}
+
+.form-contato label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#enviar {
+  border: none;
+  background-color: #109CE9;
+  height: 3rem;
+  width: 15rem;
+  display: block;
+  margin: auto;
+  color: white;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+#enviar-freela {
+  border: none;
+  background-color: #109CE9;
+  height: 3rem;
+  width: 15rem;
+  display: block;
+  margin: auto;
+  color: white;
+  border-radius: 3px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#div-file {
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  clear: both;
+}
+
+#formatos {
+  display: none;
+}
+
+.curiculo {
+  height: 100%;
+}
+
+#holder-file {
+  color: #cacaca;
+  clear: both;
+  width: 65%;
+  padding-left: 1.2rem;
+  box-sizing: border-box;
+  float: left;
+  font-size: 13px;
+  white-space: nowrap;
+  padding-top: .9rem;
+}
+
+#input-file {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 150;
+}
+
+#custom-file-upload {
+  background-color: #109CE9;
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  float: right;
+}
+
+#custom-file-upload p {
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: .8rem;
+}
+
+.rubik-font {
+  font-family: 'Rubik', sans-serif;
+}
+
+#formulario-contato {
+  margin-bottom: 4rem;
+}
+
+#formulario-freela {
+  margin-bottom: 2rem;
+}
+
+.img-card-qg {
+
+}
+
+.img-card-qg img {
+  display: block;
+  margin: auto;
+}
+
+.line-card {
+  margin-bottom: 5rem;
+}
+
+.card-qg {
+  border: 1px solid #cacaca;
+  height: auto;
+  border-radius: 3px;
+}
+
+.card-qg * {
+  margin-top: 1rem;
+  margin-bottom 1rem;
+  text-align: center;
+}
+
+.align-center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.align-center div {
+    margin: auto;
+}
+
+.img-card-qg {
+  max-width: 100%;
+}
+
+.titulo-qg h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-card-qg p {
+  margin: 2px;
+  font-size: 13px;
+  line-height: 1.2rem;
+}
+
+.text-card-qg {
+  margin-bottom: 2rem;
+}
+
+.text-card-qg p b {
+  font-weight: bold;
+}
+
+.screen-reader-response {
+  font-family: 'Rubik', sans-serif;
+}
+
+@media screen and (min-width: 576px) {
+
+  .titulo-qg h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .text-card-qg p {
+    margin: 2px;
+  }
+
+  #formatos {
+    color: #cacaca;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    width: 60%;
+    float: right;
+    text-align: right;
+    display: block;
+  }
+
+  #custom-file-upload p {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: .9rem;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .inline-card {
+    display: inline-flex;
+  }
+
+  .titulo-qg h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .img-card-qg {
+    height: 100%;
+  }
+
+  .img-card-qg img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .text-card-qg p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  #formatos {
+    color: #cacaca;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    width: 60%;
+    float: right;
+    text-align: right;
+  }
+
+  #custom-file-upload p {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: .9rem;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .titulo-qg h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .text-card-qg p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  #formatos {
+    color: #cacaca;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    width: 60%;
+    float: right;
+    text-align: right;
+    display: block;
+  }
+
+  #custom-file-upload p {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: .9rem;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .titulo-qg h3 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .text-card-qg p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  #formatos {
+    color: #cacaca;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    width: 60%;
+    float: right;
+    text-align: right;
+    display: block;
+  }
+
+  #custom-file-upload p {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: .9rem;
+  }
+
+}

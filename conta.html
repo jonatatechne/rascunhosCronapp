@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js html" lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulário</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"/>
+    <link rel="stylesheet" href="resources/grid.css"/>
+    <link rel="stylesheet" href="resources/create-account.css"/>
+  </head>
+  <body class="body">
+    <section class="container-responsive">
+      <div class="row-responsive inline">
+        <div class="col-small-12 col-medium-12 col-large-8 col-xlarge-9">
+          <div class="row-responsive">
+            <div class="col-small-12 col-medium-11 col-large-7 col-xlarge-7 elm-center">
+              <div class="row-response">
+                <div class="col-small-12 col-medium-11 col-large-10 col-xlarge-9">
+                  <h1 class="titulo-conta rubik-font">Crie sua conta e comece a desenvolver</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="formulario-conta" class="row-responsive">
+            <div class="col-small-12 col-medium-11 col-large-10 col-xlarge-7 elm-center">
+              <div class="form-conta">
+                <label class="rubik-font"><b>Nome</b></label>
+                <input type="text" class="inputs-conta" placeholder="digite seu nome"/>
+                <!-- [text* senha class:inputs-conta placeholder "digite uma senha segura"] -->
+              </div>
+
+              <div class="form-conta">
+                <label class="rubik-font"><b>Sobrenome</b></label>
+                <input class="inputs-conta" type="text" placeholder="digite seu sobrenome"/>
+                <!-- [text* sobrenome class:inputs-conta placeholder "digite seu sobrenome"] -->
+              </div>
+
+              <div class="form-conta">
+                <label class="rubik-font"><b>E-mail</b></label>
+                <input class="inputs-conta" type="text" placeholder="digite seu email"/>
+                <!-- [email* email class:inputs-conta placeholder "digite seu email"] -->
+              </div>
+
+              <div class="form-conta">
+                <label class="rubik-font"><b>Senha</b></label>
+                <input class="inputs-conta" type="password" placeholder="digite uma senha segura"/>
+                <!-- [text* id:senha senha class:inputs-conta placeholder "digite uma senha segura"] -->
+              </div>
+
+              <div class="form-conta">
+                <label class="rubik-font"><b>Telefone</b></label>
+                <input id="telefone" class="inputs-conta" type="tel" placeholder="DDI + DDD + Telefone"/>
+                <!-- [text* id:telefone telefone class:inputs-conta placeholder "DDI + DDD + Telefone"] -->
+              </div>
+
+              <div class="form-conta">
+                <div class="row-responsive div-aceito">
+                  <div class="col-small-1 col-medium-1 col-large-1 col-xlarge-1">
+                    <input id="input-aceito" class="elm-center" type="checkbox"/>
+                    <!-- [acceptance aceito id:input-aceito class:elm-center] Estou ciente e aceito os termos de uso e condições do Cronapp [/acceptance] -->
+                  </div>
+                  <div class="col-small-10 col-medium-10 col-large-11 col-xlarge-11">
+                    <label id="label-input-aceito" for="input-aceito" class="rubik-font">Estou ciente e aceito os termos de uso e condições do Cronapp</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-conta div-criar-conta">
+                <button id="criar-conta" type="submit" class="rubik-font">Criar conta</button>
+                <!-- [submit id:criar-conta class:rubik-font "Criar conta"] -->
+              </div>
+
+              <div class="row-responsive inline conecte">
+                <div class="col-small-3 col-medium-3 col-large-4 col-xlarge-4">
+                  <hr class="grey-line"/>
+                </div>
+                <div class="col-small-6 col-medium-6 col-large-4 col-xlarge-4 text-center">
+                  <p>ou conecte usando</p>
+                </div>
+                <div class="col-small-3 col-medium-3 col-large-4 col-xlarge-4">
+                  <hr class="grey-line"/>
+                </div>
+              </div>
+
+              <div class="row-responsive redes-sociais">
+                <div class="col-small-9 col-medium-9 col-large-3 col-xlarge-3 elm-center">
+                  <div class="row-responsive inline">
+                    <a href="#facebook" class="col-small-3 col-medium-3 col-large-3 col-xlarge-3">
+                      <img class="elm-center" src="img/logo-facebook.png" alt=""/>
+                    </a>
+                    <a href="#google" class="col-small-3 col-medium-3 col-large-3 col-xlarge-3">
+                      <img class="elm-center" src="img/logo-google-plus.png" alt=""/>
+                    </a>
+                    <a href="#github" class="col-small-3 col-medium-3 col-large-3 col-xlarge-3">
+                      <img class="elm-center" src="img/logo-github.png" alt=""/>
+                    </a>
+                    <a href="#linkedin" class="col-small-3 col-medium-3 col-large-3 col-xlarge-3">
+                      <img class="elm-center" src="img/logo-linkedin.png" alt=""/>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row-responsive">
+                <div id="possui-conta" class="col-small-11 col-medium-11 col-large-9 col-xlarge-10 elm-center text-center">
+                  <h2>Já possui conta? <a href="#">Acesse aqui ></a></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-small-none col-medium-6 col-large-4 col-xlarge-3 background-172842">
+            <img class="img-side" src="img/criar-conta.png"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="resources/masker.min.js" type="text/javascript"></script>
+    <script src="resources/criar-conta.js" type="text/javascript"></script>
+  </body>
+</html>

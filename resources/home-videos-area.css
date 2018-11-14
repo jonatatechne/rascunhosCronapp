@@ -1,0 +1,322 @@
+@media only screen and (max-width: 575px) {
+  #div-icons {
+    background-color: #0A0F13;
+    width: 100%;
+  }
+
+  .icons-rows {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .icons-img {
+    width: 50%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  #div-icons {
+    background-color: #0A0F13;
+    width: 100%;
+  }
+
+  .icons-rows {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .icons-img {
+    width: 50%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #div-icons {
+    background-color: #0A0F13;
+    width: 80%;
+  }
+
+  .icons-rows {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .icons-img {
+    width: 60%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #div-icons {
+    background-color: #0A0F13;
+    width: 100%;
+  }
+
+  .icons-rows {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .icons-img {
+    width: 70%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #div-icons {
+    background-color: #0A0F13;
+    width: 80%;
+  }
+
+  .icons-rows {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .icons-img {
+    width: 50%;
+    max-width: 100%;
+  }
+}
+
+#sessao-videos {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+#como-funciona {
+  padding-top: 3rem;
+}
+
+.texto-centro {
+  text-align: center;
+}
+
+.rubik-font {
+  font-family: 'Rubik', sans-serif;
+}
+
+.titulos-videos {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+}
+
+.responsive-media {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container-media {
+  width: 90%;
+}
+
+.videos {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.titulos-card {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.depoimentos-card {
+  font-size: .8rem;
+  padding-right: 2rem;
+  margin-top: 1.2rem;
+}
+
+.relative {
+  position: relative;
+}
+
+#cloud-1 {
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+}
+
+#cloud-2 {
+  position: absolute;
+  top: -2.7rem;
+  right: 0rem;
+}
+
+.front-index-1 {
+  z-index: 150;
+  position: relative;
+}
+
+ .front-index-2 {
+   z-index: 150;
+ }
+
+.linha-cinza {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cacaca;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.sub-titulos-videos {
+  font-size: 1.1rem;
+  margin-bottom: 4rem;
+}
+
+.inline-cards-container {
+  width: 100%;
+}
+
+.inline-cards {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 5rem;
+}
+
+.cards {
+  display: inline-block;
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: .5rem;
+}
+
+.cards * {
+  max-width: 100%;
+  white-space: normal;
+}
+
+@media screen and (min-width: 576px) {
+
+  .inline-cards-container {
+    width: 100%;
+  }
+
+  .inline-cards {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 5rem;
+  }
+
+  .cards {
+    display: inline-block;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: .1rem;
+  }
+
+  .cards img {
+
+  }
+
+  .cards p {
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  .depoimentos-card {
+    font-size: .8rem;
+    padding-right: 1rem;
+    margin-top: 1.2rem;
+  }
+
+  .relative {
+    position: relative;
+  }
+
+  #cloud-1 {
+    z-index: 155;
+    position: absolute;
+    bottom: 2.5rem;
+    left: -2.5rem;
+  }
+
+  #cloud-2 {
+    position: absolute;
+    top: -.3rem;
+    right: -3rem;
+  }
+
+  .front-index-1 {
+  }
+
+  .front-index-2 {
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .inline-cards {
+    overflow-x: normal;
+    white-space: normal;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .inline-cards-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .inline-cards {
+    overflow-x: normal;
+    white-space: normal;
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .inline-cards-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  .depoimentos-card {
+    font-size: .8rem;
+    padding-right: 2rem;
+    margin-top: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .titulos-videos {
+    font-size: 45px;
+    font-weight: bolder;
+  }
+
+  .inline-cards {
+    overflow-x: normal;
+    white-space: normal;
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+  }
+
+  .inline-cards-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  .depoimentos-card {
+    font-size: .8rem;
+    padding-right: 2rem;
+    margin-top: 1.2rem;
+  }
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js html" lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="resources/forms.css">
+    <link rel="stylesheet" href="resources/grid.css">
+    <script type="text/javascript" src="resources/contact-form.js"></script>
+  </head>
+  <body class="body">
+    <section class="container-responsive">
+      <div class="row-responsive inline">
+        <div class="col-small-12 col-medium-12 col-large-7 col-xlarge-7">
+          <div class="row-responsive">
+            <div class="col-small-11 col-medium-10 col-large-9 col-xlarge-8 elm-center">
+              <p class="titulo rubik-font">CronApp Cloud Community</p>
+            </div>
+            <div class="col-small-11 col-medium-10 col-large-9 col-xlarge-8 elm-center">
+              <p class="sub-titulo rubik-font">Se você é um desenvolvedor CronApp, faça parte da comunidade e trabalhe como freelancer desenvolvendo na nuvem projetos incríveis!</p>
+            </div>
+          </div>
+
+          <div id="formulario-contato" class="row-responsive">
+            <div class="col-small-12 col-medium-11 col-large-10 col-xlarge-9 elm-center">
+              <div class="form-contato">
+                <label class="rubik-font"><b>Nome</b></label>
+                <input type="text" class="inputs-contato" placeholder="digite seu nome"/>
+                <!-- [text* nome class:inputs-contato placeholder "digite seu nome"] -->
+              </div>
+
+              <div class="form-contato">
+                <label class="rubik-font"><b>ID Cronapp</b></label>
+                <input class="inputs-contato" type="text" placeholder="digite seu id cronapp"/>
+                <!-- [text* id-cronapp class:inputs-contato placeholder "digite seu id cronapp"] -->
+              </div>
+
+              <div class="form-contato">
+                <label class="rubik-font"><b>E-mail</b></label>
+                <input class="inputs-contato" type="text" placeholder="digite seu email">
+                <!-- [email* email class:inputs-contato placeholder "digite seu email"] -->
+              </div>
+
+              <div class="form-contato">
+                <label class="rubik-font"><b>Telefone</b></label>
+                <input class="inputs-contato" type="text" placeholder="digite seu telefone">
+                <!-- [tel* telefone class:inputs-contato placeholder "digite seu telefone"] -->
+              </div>
+
+              <div class="form-contato">
+                <label class="rubik-font"><b>Disponibilidade de horas semanais</b></label>
+                <select id="select-perfil" class="inputs-contato">
+                  <option value="">selecione a carga horária</option>
+                  <option value="1">2hs</option>
+                </select>
+                <!-- [select horas id:select-carga class:inputs-contato include_blank "selecione a carga horária" "2hs"] -->
+              </div>
+
+              <div class="form-contato">
+                <label class="rubik-font"><b>Especialidade</b></label>
+                <select id="select-meio" class="inputs-contato">
+                  <option value="">selecione o meio por onde você gostaria de ser contactado</option>
+                  <option value="1">Telefone</option>
+                </select>
+                <!-- [select especialidade id:select-especialidade class:inputs-contato include_blank "selecione a sua especialidade" "front-end"] -->
+              </div>
+
+              <div class="form-contato">
+                <label class="rubik-font"><b>Currículo/Portifólio</b></label>
+                <p id="formatos" class="rubik-font">Formatos suportados: PDF e DOC(word)</p>
+                <div id="div-file" class="inputs-contato">
+                    <input type="file" id="input-file"/>
+                    <p id="holder-file" class="rubik-font">envie seu currículo e portifólio</p>
+                    <div id="custom-file-upload" class="rubik-font"><p>Anexar arquivo</p></div>
+                  <!-- [file* curiculo limit:10000 filetypes:pdf|doc|docx|png|jpg|jpeg id:input-file class:inputs-contato] -->
+                </div>
+              </div>
+
+              <div class="form-contato">
+                <button id="enviar-freela" type="button" class="rubik-font">Enviar</button>
+                <!-- [submit id:enviar-freela class:botao-enviar "Enviar"] -->
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-small-none col-medium-none col-large-5 col-xlarge-5 background-172842">
+            <img class="img-side" src="img/freelancer.jpg" alt="">
+          </div>
+        </div>
+    </section>
+  </body>
+</html>

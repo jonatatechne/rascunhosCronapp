@@ -1,0 +1,184 @@
+.body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.titulo-conta {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  padding-left: .5rem;
+}
+
+.background-172842 {
+  background-color: #172842;
+}
+
+.img-side {
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.inputs-conta {
+  height: 2.8rem;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #cacaca;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  font-family: 'Rubik', sans-serif;
+  background-color: transparent;
+}
+
+.inputs-conta::placeholder {
+  color: #cacaca;
+}
+
+.form-conta {
+  padding: .5rem;
+}
+
+.form-contato label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.div-criar-conta {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.div-aceito {
+  display: table;
+}
+
+.div-aceito div {
+  display: table-cell;
+  vertical-align: middle;
+  height: auto;
+}
+
+#criar-conta {
+  border: none;
+  background-color: #109CE9;
+  height: 3rem;
+  width: 15rem;
+  display: block;
+  margin: auto;
+  color: white;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+#label-input-aceito {
+  vertical-align: middle;
+}
+
+#input-aceito {
+  -webkit-appearance: none;
+	background-color: #ffffff;
+	border: 1px solid #cacaca;
+	padding: 12px;
+	display: inline-block;
+  margin: 0;
+  display: inline-block;
+	position: relative;
+  width: auto;
+}
+
+#input-aceito:active, #input-aceito:checked:active {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+#input-aceito:checked {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+#input-aceito:checked:after {
+  font-family: 'Rubik', sans-serif;
+  content: '\2713';
+  font-size: 140%;
+	position: absolute;
+	color: #111111;
+  display: block;
+  z-index: 150;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.form-conta-aceito {
+  align-content: center;
+  justify-content: center;
+}
+
+.conecte {
+  display: table;
+  text-align: center;
+}
+
+.conecte div {
+  display: table-cell;
+  vertical-align: middle;
+  height: auto;
+}
+
+.grey-line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cacaca;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.redes-sociais {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+#possui-conta {
+  border: 1px solid #cacaca;
+  margin-bottom: 3rem;
+  height: 4rem;
+  text-align: center;
+  display:flex;
+  flex-flow: column;
+  justify-content:center;
+}
+
+#possui-conta a {
+  text-decoration: none;
+  color: #0F9DE9;
+}
+
+@media screen and (min-width: 576px) {
+  #possui-conta {
+  	font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
