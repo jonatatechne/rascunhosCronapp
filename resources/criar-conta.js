@@ -17,6 +17,7 @@ function main() {
     document.querySelector("#email").addEventListener("focusout", validEmail, true);
     document.querySelector("#senha").addEventListener("focusout", validPassword, true);
     document.querySelector("#telefone").addEventListener("focusout", validTelefone, true);
+    document.querySelector("#telefone").addEventListener("focusout", splitPhone, true);
     document.querySelector("#input-aceito").addEventListener("click", validAceite, true);
 
   }
@@ -35,13 +36,27 @@ function mask(evt) {
   }
 }
 
+function splitPhone(evt) {
+  let numbers = evt.target.value.split(" ");
+  let ddi = numbers[0].replace("+", "");
+  let ddd = numbers[1];
+  let number = numbers[2].replace("-", "");
+
+  document.querySelector("#numero").value = number;
+  document.querySelector("#ddd").value = ddd;
+  document.querySelector("#ddi").value = ddi;
+
+}
+
 function validNome(evt) {
   let verify = new RegExp("^(?=.*[A-Za-z])");
   if (verify.test(evt.target.value)) {
     evt.target.style.borderColor = "#cacaca";
+    document.querySelector("#erro-nome").style.display = "none";
     validaNome = true;
   } else {
   evt.target.style.borderColor = "red";
+  document.querySelector("#erro-nome").style.display = "block";
   validaNome = false;
   }
 }
@@ -50,9 +65,11 @@ function validSobrenome(evt) {
   let verify = new RegExp("^(?=.*[A-Za-z])");
   if (verify.test(evt.target.value)) {
     evt.target.style.borderColor = "#cacaca";
+    document.querySelector("#erro-sobrenome").style.display = "none";
     validaSobrenome = true;
   } else {
   evt.target.style.borderColor = "red";
+  document.querySelector("#erro-sobrenome").style.display = "block";
   validaSobrenome = false;
   }
 }
@@ -61,9 +78,11 @@ function validEmail(evt) {
   let verify = new RegExp("^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$");
   if (verify.test(evt.target.value)) {
     evt.target.style.borderColor = "#cacaca";
+    document.querySelector("#erro-email").style.display = "none";
     validaEmail = true;
   } else {
   evt.target.style.borderColor = "red";
+  document.querySelector("#erro-email").style.display = "block";
   validaEmail = false;
   }
 }
@@ -72,9 +91,11 @@ function validPassword(evt) {
   let verify = new RegExp("^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d^a-zA-Z0-9].{6,40}$");
   if (verify.test(evt.target.value)) {
     evt.target.style.borderColor = "#cacaca";
+    document.querySelector("#erro-senha").style.display = "none";
     validaPassword = true;
   } else {
   evt.target.style.borderColor = "red";
+  document.querySelector("#erro-senha").style.display = "block";
   validaPassword = false;
   }
 }
@@ -82,9 +103,11 @@ function validPassword(evt) {
 function validTelefone(evt) {
   if (evt.target.value !== "") {
     evt.target.style.borderColor = "#cacaca";
+    document.querySelector("#erro-telefone").style.display = "none";
     validaTelefone = true;
   } else {
   evt.target.style.borderColor = "red";
+  document.querySelector("#erro-telefone").style.display = "block";
   validaTelefone = false;
   }
 }

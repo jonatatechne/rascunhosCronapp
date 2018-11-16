@@ -1,0 +1,40 @@
+<div class="form-conta">
+  <label class="rubik-font"><b>Nome</b></label>
+  [text* nome id:nome class:inputs-conta placeholder "digite seu nome"]
+  <p id="erro-nome" class="text-erro"><i>Por favor preencha o nome</i></p>
+</div>
+<div class="form-conta">
+  <label class="rubik-font"><b>Sobrenome</b></label>
+  [text* sobrenome id:sobrenome class:inputs-conta placeholder "digite seu sobrenome"]
+  <p id="erro-sobrenome" class="text-erro"><i>Por favor preencha o sobrenome</i></p>
+</div>
+<div class="form-conta">
+  <label class="rubik-font"><b>E-mail</b></label>
+  [email* email id:email class:inputs-conta placeholder "digite seu email"]
+  <p id="erro-email" class="text-erro"><i>Email inválido</i></p>
+</div>
+<div class="form-conta">
+  <label class="rubik-font"><b>Senha</b></label>
+  [text* senha id:senha class:inputs-conta placeholder "digite uma senha segura"]
+  <p id="erro-senha" class="text-erro"><i>A senha deve conter de 6 a 40 caracteres e conter uma letra e um número</i></p>
+</div>
+<div class="form-conta">
+  <label class="rubik-font"><b>Telefone</b></label>
+  [text* telefone id:telefone class:inputs-conta placeholder "DDI + DDD + Telefone"]
+  <p id="erro-telefone" class="text-erro">Por favor preencha o telefone</p>
+</div>
+<div class="form-conta">
+  <div class="row-responsive div-aceito">
+    <div class="col-small-1 col-medium-1 col-large-1 col-xlarge-1">
+      [acceptance aceito id:input-aceito class:elm-center]
+    </div>
+    <div class="col-small-10 col-medium-10 col-large-11 col-xlarge-11">
+      <label id="label-input-aceito" for="input-aceito" class="rubik-font">
+        Estou ciente e aceito os termos de uso e condições do Cronapp
+      </label>
+    </div>
+  </div>
+</div>
+<div class="form-conta div-criar-conta">
+  [submit id:criar-conta class:rubik-font "Criar conta"]
+</div>

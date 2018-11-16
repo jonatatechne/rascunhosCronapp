@@ -66,6 +66,13 @@
   height: auto;
 }
 
+.text-erro {
+	color: red;
+	font-size: 15px;
+	margin-top: -20px;
+	display: none;
+}
+
 #criar-conta {
   border: none;
   background-color: #109CE9;
