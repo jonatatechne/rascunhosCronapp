@@ -76,10 +76,18 @@
   color: white;
   border-radius: 3px;
   font-size: 17px;
+  cursor: pointer;
+}
+
+#criar-conta:disabled {
+  cursor: not-allowed;
+  background-color: #7bd5ff;
+  opacity: .9;
 }
 
 #label-input-aceito {
   vertical-align: middle;
+  cursor: pointer;
 }
 
 #input-aceito {
@@ -92,6 +100,7 @@
   display: inline-block;
 	position: relative;
   width: auto;
+  cursor: pointer;
 }
 
 #input-aceito:active, #input-aceito:checked:active {
