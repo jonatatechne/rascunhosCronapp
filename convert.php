@@ -17,6 +17,7 @@ function cronapp_script_enqueue() {
   wp_enqueue_style('fabrica', get_template_directory_uri() . '/resources/css/fabrica.css', array(), '1.0.0', 'all');
   wp_enqueue_style('criar-conta', get_template_directory_uri() . '/resources/css/create-account.css', array(), '1.0.0', 'all');
   wp_enqueue_style('tutoriais', get_template_directory_uri() . '/tutoriais.css', array(), '1.0.0', 'all');
+  wp_enqueue_style('produto', get_template_directory_uri() . '/resources/css/product.css', array(), '1.0.0', 'all');
 
   wp_enqueue_script('jqueryjs', get_template_directory_uri() . '/js/jquery.js', array(), '1.0.0', true);
   wp_enqueue_script('masker', get_template_directory_uri() . '/resources/js/masker.min.js', array(), '1.0.0', true);
